@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+.menu.show {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

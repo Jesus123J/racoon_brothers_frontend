@@ -66,3 +66,42 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.body-div {
+   background-color: #f9f9f9 ;
+    flex: 1; /* Se expande hasta llenar el espacio disponible */
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0%;
+    margin-top: 100px;
+    margin: 0; /* Asegura que no haya margen extra */
+}
+
+
+.body-div {
+  max-width: 100%;
+}
+
+footer a {
+  color: white; /* color de los enlaces */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
